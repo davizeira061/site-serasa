@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: #0e0e0e;
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(174, 0, 255), rgb(47, 0, 85));
+    ;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ffffff;
+    height: 80px;
+}
+
+/* .container {
+    display: flex;
+    align-items: stretch;
+    width: 350px;
+    height: 550px;
+    position: absolute;
+} */
+
+.container {
+    display: flex;
+    /* flex-direction:row; */
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    /* align-items:stretch; */
+    /* align-content:center; */
+}
+
+.container .pessoa {
+    background: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.container .pessoa .foto {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+
+}
+
+.container .pessoa .foto .foto-perfil {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.nav-list .botoes {
+    color: #ffffff;
+    background-color: #244386;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#quadro_funcionarios {
+    display: flex;
+    justify-content: center;
+    color: #244386;
+    height: 50px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    line-height: 200%;
+}
+
+a.redes {
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 7px;
+}
